@@ -1,0 +1,19 @@
+{
+  "appUsers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "app": "mConnect"
+    },
+    {
+      "id": 2,
+      "name": "Amanda Jane",
+      "app": "mAadhar"
+    },
+    {
+      "id": 3,
+      "name": "Rodney Junior",
+      "app": "mConnect"
+    }
+  ]
+} 
