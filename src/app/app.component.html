@@ -23,3 +23,16 @@
 </div>
 
 <h2>This is a starter template for Angular 5 + Foundation 6</h2>
+
+
+<h2>checkbox usage </h2>
+<ul>
+  <li> <input type="checkbox" [(ngModel)]="selectedAll" (change)="selectAll();"/>
+  </li>
+  <li *ngFor="let n of names"> 
+  <input type="checkbox" [(ngModel)]="n.selected" (change)="checkIfAllSelected();">
+  {{n.name}}
+  </li>
+</ul>
+<button [disabled]="!singleSelected()" type="button" class = "button large">Push</button>
+<textarea [disabled]="!singleSelected()" rows="3"></textarea>
